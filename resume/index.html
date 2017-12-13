@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>芝麻开门</title>
+    <link rel="stylesheet" href="//cdn-jqstudy-cn.b0.upaiyun.com/res/resetcss/reset.css">
+    <link href="https://cdn.bootcss.com/Swiper/4.0.7/css/swiper.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="mainContainer">
+        <div class="swiper-container pageContainer">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="simPageContainer">
+                        <div class="menuContainer">
+                            页面导航
+                        </div>
+                        <div class="pageContentContainer workExperenceContainer">
+                            <div class="panle simWorkExperence ">
+                                <div class="panleHeader">
+                                    <div class="companyNameContainer">微软（中国）有限公司</div>
+                                    <div class="positionContainer">技术总监</div>
+                                </div>
+                                <div class="panleBody"></div>
+                            </div>
+                            <div class="panle simWorkExperence active">
+                                <div class="panleHeader">
+                                    <div class="companyNameContainer">谷歌（中国）有限公司</div>
+                                    <div class="positionContainer">技术总监</div>
+                                </div>
+                                <div class="panleBody"></div>
+                            </div>
+                            <div class="panle simWorkExperence">
+                                <div class="panleHeader">
+                                    <div class="companyNameContainer">脸书（中国）有限公司</div>
+                                    <div class="positionContainer">技术总监</div>
+                                </div>
+                                <div class="panleBody"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="simPageContainer">
+                        <div class="userBaseContainer">
+                            <div class="userLogoContainer"></div>
+                        </div>
+                        <div class="userInfoContainer">
+                            <div class="terminalContainer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div>
+                <div class="swiper-slide">Slide 10</div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/Swiper/4.0.7/js/swiper.min.js"></script>
+    <script src="http://cdn-jqstudy-cn.b0.upaiyun.com/res/klconsole/kl-console.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            direction: 'vertical',
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    </script>
+</body>
+
+</html>
