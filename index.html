@@ -10,9 +10,7 @@
         height: 100%;
         width: 100%;
         background: #333;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
     }
     h1{
         text-align: center;
@@ -22,10 +20,31 @@
         width: 200px;
         height: auto;
     }
+    .copyright{
+        color: #ffffff;
+        text-align: center;
+    }
+    .mainContainer{
+        width: 100%;
+        height: calc(100% - 100px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+        width: 100%;
+        height: 100px;
+        text-align: center;
+    }
     </style>
 </head>
 <body>
-    <img class="logo" src="https://static-oven.b0.upaiyun.com/static-image/mylogo.png" alt="">
-    <h1>HTTPS://WWW.JQSTUDY.CN</h1>
+    <div class="mainContainer">
+            <img class="logo" src="https://static-oven.b0.upaiyun.com/static-image/mylogo.png" alt="">
+            <h1>HTTPS://WWW.JQSTUDY.CN</h1>
+    </div>
+    <footer>
+        <a class="copyright" href="http://www.miitbeian.gov.cn/">湘ICP备16001900号-1</a>
+    </footer>
 </body>
 </html>
